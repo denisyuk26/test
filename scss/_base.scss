@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+	outline: none;
+	&:before, &:after {box-sizing: border-box}
+
+}
+html, body {
+	height: 100%
+}
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: myriad, sans-serif;
+	overflow-x: hidden;
+	opacity: 1;
+	}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	}
+
+.text-center {
+	text-align: center;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.disable {
+	display: none;
+}
+.enable {
+	display: block;
+}
+
+.mycontainer {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 120%;
+	color:inherit;
+	transition: opacity .9s ease;
+
+}
+
+.clear {
+	clear:both;
+}
+[hidden] {
+	display: none;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.input-error {
+	border: 1px solid red;
+}
